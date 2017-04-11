@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import RealmSwift
+import SwiftyBeaver
+import FontBlaster
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Setup swifty beaver
+        let console = ConsoleDestination()
+        log.addDestination(console) // add to SwiftyBeaver
+        
+//        // Setup realm configuration
+//        var config = Realm.Configuration()
+//        config.deleteRealmIfMigrationNeeded = true
+//
+//        Realm.Configuration.defaultConfiguration = config
+        let directory: URL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.Messages.Realm")!
+        var config = Realm.Configuration()
+        config.fileURL = directory.appendingPathComponent("db.realm")
+        config.deleteRealmIfMigrationNeeded = true
+        Realm.Configuration.defaultConfiguration = config
+
+        DefaultBrush.createDefaultBrush()
+        FontBlaster.debugEnabled = false
+        FontBlaster.blast { (fonts) -> Void in
+//            print("Loaded Fonts", fonts)
+        }
+        
         return true
     }
 

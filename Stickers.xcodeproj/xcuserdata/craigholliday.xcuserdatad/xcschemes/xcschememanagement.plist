@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MessagesExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
+		<key>Stickers-NoLoad.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Stickers.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>161693481E8C02C2009DF491</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1616936C1E8C112F009DF491</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>16C89B751E86EBD1002B46AF</key>
 		<dict>
 			<key>primary</key>

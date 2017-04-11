@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>34566985441-g0eatj2ifilrk3angbe37stqsojb9p8b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.34566985441-g0eatj2ifilrk3angbe37stqsojb9p8b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyClJ2d-SM7y9RdVCr-h3yBCWFA-gFAjros</string>
+	<key>GCM_SENDER_ID</key>
+	<string>34566985441</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>koala-tea.Stickers</string>
+	<key>PROJECT_ID</key>
+	<string>mystickers-52539</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mystickers-52539.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:34566985441:ios:2365f4b4f10e4b05</string>
+	<key>DATABASE_URL</key>
+	<string>https://mystickers-52539.firebaseio.com</string>
+</dict>
+</plist>

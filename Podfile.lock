@@ -1,0 +1,70 @@
+PODS:
+  - Alamofire (4.4.0)
+  - AlamofireObjectMapper (4.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - FontBlaster (3.0.2)
+  - IGColorPicker (0.2.1):
+    - M13Checkbox (~> 2.2.0)
+  - Kingfisher (3.6.1)
+  - KoalaTeaFlowLayout (0.2.0)
+  - M13Checkbox (2.2.6)
+  - NXDrawKit (0.5.0)
+  - ObjectMapper (2.2.5)
+  - Realm (2.5.0):
+    - Realm/Headers (= 2.5.0)
+  - Realm/Headers (2.5.0)
+  - RealmSwift (2.5.0):
+    - Realm (= 2.5.0)
+  - Reusable (4.0.0):
+    - Reusable/Storyboard (= 4.0.0)
+    - Reusable/View (= 4.0.0)
+  - Reusable/Storyboard (4.0.0)
+  - Reusable/View (4.0.0)
+  - SnapKit (3.2.0)
+  - SwifterSwift (1.6.3)
+  - SwiftyBeaver (1.1.4)
+  - SwiftyJSON (3.1.4)
+  - SwiftyStoreKit (0.8.4)
+  - UIFontComplete (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AlamofireObjectMapper (~> 4.0)
+  - FontBlaster
+  - IGColorPicker
+  - Kingfisher (~> 3.0)
+  - KoalaTeaFlowLayout
+  - NXDrawKit
+  - RealmSwift
+  - Reusable
+  - SnapKit
+  - SwifterSwift
+  - SwiftyBeaver
+  - SwiftyJSON
+  - SwiftyStoreKit
+  - UIFontComplete
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  FontBlaster: 6a34102ab08e18368683a99c2cee6247341121e0
+  IGColorPicker: a6ed1bf42cccf9e260e24d33faec5263310b4cef
+  Kingfisher: 2f31cb75f3e98d3d4c406cbdcd9b263e956cfa67
+  KoalaTeaFlowLayout: c2f8dacbdfc584c300e1154ec5507ee06c7285a7
+  M13Checkbox: 9989b7e275f18493bd33b960dc68374c47d0027b
+  NXDrawKit: f2bd368bc4bfbf4b353c13fc0d9a580b3ba10eaa
+  ObjectMapper: fb30f71e08470d1e5a20b199fafe1246281db898
+  Realm: 62abce501668580092d2be9b6ba7324a3d5f906a
+  RealmSwift: 9f1a8f624f2f153410115c2cb7d486be9976565d
+  Reusable: 98e5fff1e0e2e00872199699b276dde08ee56c07
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwifterSwift: 76bf942a17769ebf8fb77f89138cbbd525c039c0
+  SwiftyBeaver: 9216b6e163c145628ccc7c0126df4287880d6e1e
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SwiftyStoreKit: b235756bd6e541cafbed6e75d28b29b8a1c1caef
+  UIFontComplete: d0beff20df1b6df6a9d4e99bde7aeb42d53c757b
+
+PODFILE CHECKSUM: 28c64ef9ddfa47d402a4dad31fa408c82c390044
+
+COCOAPODS: 1.2.1.beta.1
