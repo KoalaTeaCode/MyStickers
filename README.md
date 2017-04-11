@@ -4,10 +4,6 @@ This is a [Koala Tea](http://www.koalatea.io/) product.
 
 ## Description
 
-This is the WIP iOS app for [The Binding of Isaac Database](http://thebindingofisaacdb.com/), an open source database for everything in the game [The Binding of Isaac: Rebirth](http://bindingofisaac.com/) as well as all DLC.
-
-We are still in the process of building out the database and will be adding items to the app as well as the website as we go.
-
 ## Building the code
 
 > __Xcode 8 is required for this project.__
