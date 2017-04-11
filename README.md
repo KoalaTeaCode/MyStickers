@@ -1,5 +1,5 @@
 # MyStickers
-===============
+
 This is a [Koala Tea](http://www.koalatea.io/) product.
 
 ## Description
