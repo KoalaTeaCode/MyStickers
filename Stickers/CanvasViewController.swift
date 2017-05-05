@@ -269,7 +269,12 @@ extension CanvasViewController {
     }
     
     func onClickClearButton() {
-        self.canvasView?.clear()
+        guard let canClear = self.canvasView?.canClear() else { return }
+        
+        if canClear {
+            self.showClearCheck()
+            return
+        }
     }
 }
 
@@ -385,6 +390,17 @@ extension CanvasViewController {
         
         alert.addAction(UIAlertAction(title: L10n.imOkayWithThis, style: .destructive, handler: { (action) -> Void in
             self.dismiss(animated: true, completion: nil)
+        }))
+        alert.addAction(UIAlertAction(title: L10n.goBack, style: .cancel, handler: nil))
+        
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func showClearCheck() {
+        let alert = UIAlertController(title: L10n.areYouSure, message: L10n.youreAboutToClear, preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction(title: L10n.imOkayWithThis, style: .destructive, handler: { (action) -> Void in
+            self.canvasView?.clear()
         }))
         alert.addAction(UIAlertAction(title: L10n.goBack, style: .cancel, handler: nil))
         

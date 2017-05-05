@@ -17,6 +17,8 @@ enum Stylesheet {
         static let white = UIColor(hex: 0xFFFFFF)
         static let offBlack = UIColor(hex: 0x262626)
         static let offWhite = UIColor(hex: 0xF3F3F3)
+        static let clear = UIColor.clear
+        static let canvas = UIColor(hex: 0xf4ecd7)
         
         static let baseColor = UIColor(hex: 0xFFAD69)
         static let lighter1 = UIColor(hex: 0xFFC18D)
@@ -62,8 +64,9 @@ enum Stylesheet {
         }
         
         enum CanvasController {
-            static let backgroundColor = Colors.offWhite
-            static let canvasBackgroundColor = UIColor.clear
+            static let backgroundColor = Colors.white
+            static let canvasBackgroundColor = Colors.offWhite
+            static let canvasContainerBackgroundColor = Colors.clear
             static let toolBarBackgroundColor = Colors.offBlack
             static let toolBarActiveIconColor = UIColor.white
             static let toolBarDisabledIconColor = UIColor.gray
@@ -112,7 +115,8 @@ extension Stylesheet {
         
         vc.view.backgroundColor = context.backgroundColor
         
-        vc.canvasContainerView.backgroundColor = context.canvasBackgroundColor
+        vc.canvasContainerView.backgroundColor = context.canvasContainerBackgroundColor
+        vc.canvasView?.backgroundColor = context.canvasBackgroundColor
         
         vc.toolBar.backgroundColor = context.toolBarBackgroundColor
         

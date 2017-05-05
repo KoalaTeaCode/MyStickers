@@ -27,6 +27,7 @@ enum L10n {
     // Messages
     static let alreadyAStickerWithName = "There's already a sticker with that name."
     static let youHaveUnsavedChanges = "You have unsaved changes..."
+    static let youreAboutToClear = "You're about to clear your canvas..."
     static let itWillBeGoneForever = "It will be gone forever."
     
     // Answers
