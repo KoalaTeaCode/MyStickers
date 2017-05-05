@@ -20,7 +20,7 @@ This is a [Koala Tea](http://www.koalatea.io/) product.
   pod --install
   ```
 
-3. Open `Stickers.xcworkspace.xcworkspace` in Xcode.
+3. Open `Stickers.xcworkspace` in Xcode.
 4. Build the `Stickers` scheme in Xcode.
 
 ## Open source Libraries in use
