@@ -41,6 +41,7 @@ class CanvasViewController: UIViewController {
     var colors: [UIColor] = {
         return [
             Stylesheet.pureColors.black,
+            Stylesheet.pureColors.white,
             Stylesheet.pureColors.yellow,
             Stylesheet.pureColors.yellowOrange,
             Stylesheet.pureColors.orange,
