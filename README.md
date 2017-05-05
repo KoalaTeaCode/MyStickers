@@ -1,4 +1,4 @@
-# MyStickers
+# [MyStickers](https://koalateacode.github.io/MyStickers/)
 
 This is a [Koala Tea](http://www.koalatea.io/) product.
 
